@@ -1,0 +1,506 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: #021017;
+}
+/* ICHKI MA'LUMOTLAR RASM START */
+                #menubutton:active {
+                    border: #ed239f 0.3rem;
+                    cursor: grab;
+                }
+                .menu:active {
+                    border: #ed239f 0.3rem;
+                    cursor: grab;
+                }
+                .btnselect{
+                    margin-top: 5px;
+                }
+        /* ICHKI MA'LUMOTLAR RASM FINISH */
+
+        /* RASM KO'RINISH START */
+                .menu:hover {
+                    transition: background-color 5s linear;
+                    background: linear-gradient(to right,#bb0e0ede 10%,#b89706 40%,#23ed23 90%);
+                    color: white;
+                }
+                .menu { 
+                    cursor: pointer;
+                    background: linear-gradient(to right,#23ed23 10%, #b89706 40%,#bb0e0ede 90%);
+                    text-align: center;
+                    border-radius: 10px;
+                    display: inline-block;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    padding: 0.625rem; /*10/16= 0.625rem*/
+                    border: blue 1px solid;
+                    margin-top: 10px;
+                    margin-left: 30%;
+                    color: white;
+                }
+              /*  .dropdown-toggle:nth-last-child(n+3),.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){border-top-right-radius:0;border-bottom-right-radius:0}.input-group.has-validation>.dropdown-toggle:nth-last-child(n+4),.input-group.has-validation>:nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu){border-top-right-radius:0;border-bottom-right-radius:0}.input-group>:not(:first-child):not(.dropdown-menu)*/
+        /* RASM KO'RINISH FINISH */ 
+
+                             /*  HEADER */
+                .headerlogo {
+                    position: absolute; 
+                    left: 1%;
+                
+                }
+                .headerlogo:active {
+                    width: 1000px;
+                    height: 1000px;
+                }
+                .headerspanportfoliotext {
+                    position: absolute;
+                    left: 7%;
+                    text-decoration: solid;
+                    text-transform: uppercase;
+                    font-size: 1.5625rem; /*25*/
+                    color: #fff;
+                }
+                      .MenuHomeHeader {
+                    font-family: 'Times New Roman', Times, serif;
+                    width: 80%;
+                    min-height: 70px;
+                    margin-top: 0.625rem;
+                    border-radius: 10px;
+                    position: sticky;
+                    top: 0;
+                    left: 10%;
+                    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+                    z-index: 5;
+                
+                }                                       
+        /* HOME */
+                .Home-Uy {
+                    vertical-align: middle;
+                    display: inline-block;
+                    font-weight: 900;
+                    border: black  solid; 
+                    text-transform: uppercase;
+                    cursor:pointer;
+                    border-radius: 5px;
+                    background: linear-gradient(to right,#1345e6 0%,#ed239f 100%,#1345e6 100%);
+                    padding-right: 10px ;
+                    color: #fff;
+                    text-decoration: none;
+                    min-height: 64px;
+                    width: 25%;
+                    text-align: center;
+                    vertical-align: middle;
+                    text-size-adjust: auto;
+                    position: absolute;
+                    left: 0%;
+                    font-size: 3.125rem; /* 50/16=3,125 */
+                   
+                }
+                .Home-Uy:hover {
+                    border: rgb(145, 18, 18)  solid; 
+                    background:linear-gradient(to right,green 0%, yellow 100%, #71e939 100%);
+                    color: white;
+                }
+                .Home-Uy:active {
+                    background: linear-gradient(to right,#ed239f 0% #1345e6 51%, #1345e6 100%);
+                    color:#efb6df ;
+                }                            
+        /*  &&&HOME&&&  */
+
+        /* TARMOQ */
+                .tarmoq {
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 900;
+                    border: black  solid; 
+                    text-transform: uppercase;
+                    cursor:pointer;
+                    border-radius: 5px;
+                    background: linear-gradient(to right,#1345e6 0%,#ed239f 100%,#1345e6 100%);
+                    padding-right: 10px ;
+                    color: #fff;
+                    text-decoration: none;
+                    min-height: 64px;
+                    width: 25%;
+                    text-align: center;
+                    vertical-align: middle;
+                    text-size-adjust: auto;
+                    position: absolute;
+                    left: 50.8%;
+                    font-size: 3.125rem; /* 50/16=3,125 */
+                
+                }
+                .tarmoq:hover {
+                    border: rgb(145, 18, 18)  solid; 
+                    background:linear-gradient(to right,green 0%, yellow 100%, #71e939 100%);
+                    color: white;
+                }
+                .tarmoq:active {
+                    background: linear-gradient(to right,#ed239f 0% #1345e6 51%, #1345e6 100%);
+                    color:#efb6df ;
+                }
+        /*  &&&TARMOQ&&&  */
+            
+        /* YASHASH MANZILI */
+                .manzil {
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 900;
+                    border: black  solid; 
+                    text-transform: uppercase;
+                    cursor:pointer;
+                    border-radius: 5px;
+                    background: linear-gradient(to right,#1345e6 0%,#ed239f 100%,#1345e6 100%);
+                    padding-right: 10px ;
+                    color: #fff;
+                    text-decoration: none;
+                    min-height: 64px;
+                    width: 25%;
+                    text-align: center;
+                    vertical-align: middle;
+                    text-size-adjust: auto;
+                    position: absolute;
+                    left: 76%;
+                    font-size: 3.125rem; /* 50/16=3,125 */
+                
+                }
+                .manzil:hover {
+                    border: rgb(145, 18, 18)  solid; 
+                    background:linear-gradient(to right,green 0%, yellow 100%, #71e939 100%);
+                    color: white;
+                }
+                .manzil:active {
+                    background: linear-gradient(to right,#ed239f 0% #1345e6 51%, #1345e6 100%);
+                    color:#efb6df ;
+                }
+        /*  &&& MANZIL &&&  */
+
+        /* SERVICE  */
+                .service {
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: 900;
+                    border: black  solid; 
+                    text-transform: uppercase;
+                    cursor:pointer;
+                    border-radius: 5px;
+                    background: linear-gradient(to right,#1345e6 0%,#ed239f 100%,#1345e6 100%);
+                    padding-right: 10px ;
+                    color: #fff;
+                    text-decoration: none;
+                    min-height: 64px;
+                    width: 25%;
+                    text-align: center;
+                    vertical-align: middle;
+                    text-size-adjust: auto;
+                    position: absolute;
+                    left: 25.4%;
+                    font-size: 3.125rem; /* 50/16=3,125 */
+                
+                }
+                .service:hover {
+                    border: rgb(145, 18, 18)  solid 0.2rem; 
+                    background:linear-gradient(to right,green 0%, yellow 100%, #71e939 100%);
+                    color: white;
+                }
+                .service:active {
+                    background: linear-gradient(to right,#ed239f 0% #1345e6 51%, #1345e6 100%);
+                    color:#efb6df ;
+                }
+        /*  &&&SERVICE&&&  */
+
+                            /* //HEADER// */
+
+        /*   // MEDIA  HEADER \\   */
+                @media only screen and (max-width:1250px){
+                    .Home-Uy{
+                        font-size: 40px;
+                    }
+                    .service{
+                        font-size: 40px;
+                    }
+                    .tarmoq{
+                        font-size: 40px;
+                    }
+                    .manzil{
+                        font-size: 40px;
+                    }
+                }
+                @media only screen and (max-width:1000px){
+                    .menu{
+                        margin-left: 25%;
+                    }
+                    .MenuHomeHeader{
+                        min-height: 2.9rem;
+                        margin-top: 0.25rem;
+                        border-radius: 5px;
+                        width: 80%;
+                        left: 10%;
+                    }
+                    
+                    .Home-Uy{
+                        min-height: 40px;
+                        width: 25.4%;
+                        font-size: 1.4rem;
+                    }
+                    
+                    .service{
+                        min-height: 40px;
+                        width: 25.4%;
+                        font-size: 1.4rem;
+                    }
+
+                    .tarmoq{
+                        min-height: 40px;
+                        width: 25.4%;
+                        font-size: 1.4rem;
+                    }
+
+                    .manzil{
+                        min-height: 40px;
+                        width: 25%;
+                        font-size: 1.4rem;
+                        left: 76%;
+                    }
+
+
+                }
+                @media only screen and (max-width: 810px){
+                    .Home-Uy{
+                        font-size: 1.3rem;
+                    }
+                    .service{
+                        font-size: 1.3rem;
+                    }
+                    .tarmoq{
+                        font-size: 1.3rem;
+                    }
+                    .manzil{
+                        font-size: 1.3rem;
+                    }
+                }
+                @media only screen and (max-width: 750px){
+                    img{
+                        width: 200px;
+                        height: 200px;
+                    }
+                    .menu{
+                        border-radius: 10px;
+                        width: 10px 10px;
+                    }
+                    .MenuHomeHeader{
+                        min-height: 23px;
+                        margin-top: 0.25rem;
+                        border-radius: 8px;
+                        left: 10%;
+                    }
+
+                    .Home-Uy{
+                        min-height: 20px;
+                        width: 25.8%;
+                        font-size: 0.9rem;
+                        font-weight: 100;
+                    }
+
+                    .service{
+                        min-height: 20px;
+                        width: 25.8%;
+                        font-size:0.9rem;
+                        font-weight: 100;
+                    }
+                    .tarmoq{
+                        min-height: 20px;
+                        width: 25.8%;
+                        font-size:0.9rem;
+                        font-weight: 100;
+                    }
+                    .manzil{
+                        min-height: 20px;
+                        width: 25.8%;
+                        font-size:0.9rem;
+                        font-weight: 100;
+                    }
+                }
+                @media only screen and (max-width: 600px){
+                    @keyframes box {
+                        0% {
+                            left: 0;
+                            border: #fff;
+                        }
+                        50% {
+                            margin-left: 50%;
+                            border: #1345e6;
+                            transform: scale(2,1);
+    
+                        }
+                        100% {
+                            margin-left: 50%;
+                            border: red;
+    
+                        }
+                    }
+                    .menu{
+                        margin-left: 15%;
+                    }
+                    .Home-Uy{
+                        width: 24.4%;
+                        font-size: 13px;
+                    }
+                    .service{
+                        width: 24.4%;
+                        font-size: 13px;
+                    }
+                    .tarmoq{
+                        width: 24.4%;
+                        font-size: 13px;
+                    }
+                    .manzil{
+                        width: 24.4%;
+                        font-size: 13px;
+                    }
+                }
+                @media only screen and (max-width: 500px){
+                    @keyframes box {
+                        0% {
+                            left: 0;
+                            border: #fff;
+                        }
+                        50% {
+                            margin-left: 50%;
+                            border: #1345e6;
+                            transform: scale(2,1);
+    
+                        }
+                        100% {
+                            margin-left: 60%;
+                            border: red;
+    
+                        }
+                    }
+                    .Home-Uy{
+                        width: 23.4%;
+                        font-size: 13px;
+                    }
+                    .service{
+                        width: 23.4%;
+                        font-size: 13px;
+                    }
+                    .tarmoq{
+                        width: 23.4%;
+                        font-size: 13px;
+                    }
+                    .manzil{
+                        width: 23.4%;
+                        font-size: 13px;
+                    }
+                }
+                @media only screen and (max-width: 400px){  
+                    .MenuHomeHeader{
+                        left: 0%;
+                        width: 100%;
+                    }
+                    .menu{
+                        margin-left: 10%;
+                    }
+                    .Home-Uy{
+                        width: 25.4%;
+                        font-size: 12px;
+                    }
+                    .service{
+                        width: 25.4%;
+                        font-size: 12px;
+                    }
+                    .tarmoq{
+                        width: 25.4%;
+                        font-size: 12px;
+                    }
+                    .manzil{
+                        width: 25.4%;
+                        font-size: 12px;
+                    }
+                }
+        /*   // MEDIA HEADER \\   */
+
+        /*   \\  FOOTER  //   */
+                footer{
+                    background-color: #021017;
+                    height: 350px;
+                    width: 100%;
+                }
+                .icofile{
+                    width: 70px;
+                    height: 70px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+                .icofile:hover{
+                    border: #fff 3px solid;
+                    border-radius: 50%;
+                    width: 64px;
+                    height: 64px;
+                }
+                .imgdiv{
+                    text-align: center;
+                }
+                .animat{
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                    margin-top: 120px;
+                    animation-duration: 4s;
+                    animation-name: box;
+                    animation-iteration-count: 2000;
+                    animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05);
+                    animation-direction: alternate-reverse;
+                }
+                .animat:hover{
+                    border: #fff 3px solid;
+                    border-radius: 50%;
+                    width: 34px;
+                    height: 34px;
+                    animation-play-state: paused;
+                }
+                .animatdiv{
+                    vertical-align: bottom;
+                }
+                @keyframes box {
+                    0% {
+                        left: 0;
+                        border: #fff;
+                    }
+                    50% {
+                        margin-left: 50%;
+                        border: #1345e6;
+                        transform: scale(2,1);
+
+                    }
+                    100% {
+                        margin-left: 80%;
+                        border: red;
+
+                    }
+                }
+                .smm{   
+                    text-align: center;
+                }
+                #instagram{
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 10px; 
+                    border-radius: 50%;
+                    padding: 3px;
+                }
+                #instagram:hover{
+                    transform: translate3d(1, 1, 2);
+                    border: 5px;
+                    width: 50px;
+                    height: 50px;
+
+                }
+
+
+
+
+
+
+
